@@ -1,0 +1,59 @@
+#quiz div {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  border-radius: 0.5rem;
+  background: #000;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+button img {
+  max-height: 80px;
+  height: auto;
+  width: auto;
+}
+
+.goodanswer { 
+  background-color : #000;
+  animation-name: goodanswer;
+  animation-duration: 2s;
+}
+
+@keyframes goodanswer {
+  0% {
+    background-color: #000;
+  }
+  50% {
+  background-color: green;
+}
+  100% {
+  background-color: #000;
+}
+}
+
+
+.badanswer { 
+  background-color : #000;
+  animation-name: badanswer;
+  animation-duration: 2s;
+}
+
+@keyframes badanswer {
+  0% {
+    background-color: #000;
+  }
+  50% {
+  background-color: red;
+}
+  100% {
+  background-color: #000;
+}
+}

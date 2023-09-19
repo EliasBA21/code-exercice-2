@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/pico.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="module" src="js/main.js"></script>
+    <title>Quiz drapeaux</title>
+  </head>
+  <body>
+    <main class="container">
+      <nav>
+        <ul>
+          <li><strong>Quiz drapeaux</strong></li>
+        </ul>
+        <ul>
+          <li id="score"></li>
+        </ul>
+        <ul>
+          <li><a id="action" href="#" role="button">🕹️ NOUVEAU JEU 🕹️</a></li>
+        </ul>
+      </nav>
+      <div id="content">
+        <div><canvas id="progress" width="500" height="50"></canvas></div>
+          <div id="quiz" class="grid">
+            <div id="quiz_content"></div>
+          </div>
+          <footer id="answers">
+            <div class="grid">
+              <div>
+                <button id="answer0">
+                </button>
+              </div>
+              <div>
+                <button id="answer1">
+                </button>
+              </div>
+            </div>
+            <div class="grid">
+              <div>
+                <button id="answer2">
+                </button>
+              </div>
+              <div>
+                <button id="answer3">
+                </button>
+              </div>
+          </footer>
+      </div>
+    </main>
+  </body>
+</html>
